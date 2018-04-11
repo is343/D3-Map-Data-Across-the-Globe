@@ -1,0 +1,25 @@
+body {
+ background-color:lightgray;
+ text-align: center;
+}
+
+path {
+  stroke: black;          
+  stroke-width: 0.5px; 
+  fill: lightgreen;
+}
+circle {
+  opacity: 0.5;
+}
+#tooltip {
+  text-align: left;
+  padding: 16px;
+  background-color: lightseagreen;
+  border: 1px solid black;
+  width: auto;
+  opacity: 0.8;
+  color: black;
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
